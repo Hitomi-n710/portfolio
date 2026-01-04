@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>中仁美のポートフォリオ</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/portfolio.css">
+    </head>
+    <body>
+        <header>
+        <h1>中仁美のポートフォリオ</h1>
+        <p><img src="img/header.jpg" alt="女性の絵"></p>
+        </header>
+        <main>
+            <section>
+        <h2>Design Works</h2>
+        <ul>
+            <li class="work" onclick="toggleInfo(this)">
+  <img src="img/yoga.jpg" alt="ヨガ">
+
+  <div class="info">
+    <p>制作時間：4時間</p>
+    <p>使用ツール：Illustrator / Photoshop</p>
+    <p>制作意図：ウェーブを使って滑らかで優しい雰囲気に仕上げた。<br>
+手書き文字を使い親しみやすさを演出した。<br>
+全体的に丸みのあるデザインにした。
+</p>
+  </div>
+</li>
+            <li class="work" onclick="toggleInfo(this)">
+  <img src="img/maccha.jpg" alt="抹茶ラテ">
+
+  <div class="info">
+    <p>制作時間：2時間40分</p>
+    <p>使用ツール：Illustrator / Photoshop</p>
+    <p>制作意図：背景の黒を和紙風にして高級感を出した。<br>
+金色でさらに高級感UP。<br>
+老舗感が出るようにフォントを選んだ。<br>
+老舗でありながら今時感が出るようなデザインに仕上げた。</p>
+  </div>
+</li>
+
+</li>
+            <li class="work" onclick="toggleInfo(this)">
+  <img img src="img/wedding.jpg" alt="婚活">
+
+  <div class="info">
+    <p>制作時間：1時間25分</p>
+    <p>使用ツール：Illustrator / Photoshop</p>
+    <p>制作意図：ウェディングドレスを着て素敵な笑顔のモデルさんの写真を選んだ。<br>
+白とピンクで可愛らしく参加してみようかなと思えるようなデザインにした。</p>
+  </div>
+</li>
+ 
+</li>
+            <li class="work" onclick="toggleInfo(this)">
+  <img img src="img/maternity.jpg" alt="妊娠アプリ">
+
+  <div class="info">
+    <p>制作時間：3時間3分</p>
+    <p>使用ツール：Illustrator / Photoshop</p>
+    <p>制作意図：パステルカラーで可愛く仕上げた。<br>
+ダウンロードしたくなるような可愛いイラストと可愛い雰囲気を表現した。</p>
+  </div>
+</li>
+
+</li>
+            <li class="work" onclick="toggleInfo(this)">
+  <img img src="img/english.jpg" alt="英語教室">
+
+  <div class="info">
+    <p>制作時間：3時間15分</p>
+    <p>使用ツール：Illustrator / Photoshop</p>
+    <p>制作意図：子供っぽく可愛く表現するのが難しかった。<br>
+カラー選びにも時間がかかった。<br>
+最終的に可愛く仕上がったのではないかと思う。<br>
+もう一度チャレンジしたい。</p>
+  </div>
+</li>
+</li>
+            <li class="work" onclick="toggleInfo(this)">
+  <img img src="img/tech.jpg" alt="プログラマーの祭典">
+
+  <div class="info">
+    <p>制作時間：1時間40分</p>
+    <p>使用ツール：Illustrator / Photoshop</p>
+    <p>制作意図：近未来感がうまく出せた。<br>
+イベント名の色合いがポイント。
+</p>
+  </div>
+</li>
+        </ul>
+        </section>
+        <section>
+        <h2>About Me</h2>
+        <p><img src="img/profile.jpg"></p>
+        <section>
+        <h3>中 仁美</h3>
+        <p>京都出身で今は千葉県に住んでいます。趣味は韓国ドラマ鑑賞です。<br>
+           字幕なしでドラマが観られるようになりたい！<br>と韓国語の勉強に力を入れていたこともあります。
+       </p>
+       <p>長年デザインやファッションに興味がありその思いを形にしたいと考えて<br>
+          WEBデザインスクールで学びました。<br>
+          分かりやすく伝えるデザインを意識して制作に取り組んでいます。<br>
+          保育士としての経験も活かし相手に寄り添いながら丁寧に仕事に取り組んでまいります。
+       </p>
+       </section>
+       <section>
+       <h3 class="ub1">Design Tools</h3>
+       <p>Illustrator/Photoshop</p>
+       </section>
+       <section>
+    <h3 class="ub2">Skills</h3>
+    <p>HTML/CSS/Wordpress</p>
+       </section>
+    </section>
+    </main>
+       <footer class="site-footer">
+       <p><small>copyright &copy;Hitomi Naka All rights reserved. </small></p>
+       </footer>
+       <script>
+        function toggleInfo(element) {
+        const info = element.querySelector('.info');
+        info.style.display =
+        info.style.display === 'block' ? 'none' : 'block';
+  }
+</script>
+
+    </body>
+</html>
